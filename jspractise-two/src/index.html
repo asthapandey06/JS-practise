@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myScript.js"></script>
+    <link rel="stylesheet" href="myStylesheet.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <input type="text" id="time" value="time in hours"><br><br>
+        <div class="radio">
+            <input type="radio" id="hrtomin" name="converter" value="Hours to Minutes">
+            <label for="hrtomin">Hour to Minutes</label><br>
+            <input type="radio" id="hrtosec" name="converter" value="Hours to Seconds">
+            <label for="hrtosec">Hour to seconds</label><br>
+        </div>
+        <div id="result"> </div>
+        <button type="button" onclick="converter()" id = "button">Convert</button>
+        
+    </div>
+</body>
+
+</html>

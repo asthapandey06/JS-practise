@@ -1,0 +1,12 @@
+#input{
+    text-align: center;
+}
+.wrapper{
+    padding: 10%;
+    margin: 10%;
+    text-align: left;
+}
+#result{
+    padding-left: 23%;
+    padding-top: 10%;
+}
